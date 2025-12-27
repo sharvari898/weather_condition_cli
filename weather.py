@@ -1,7 +1,9 @@
 import requests
 import json
 import logging
-
+"""
+Author : Sharvari D 27-12-2025 Developed weather.py
+"""
 logging.basicConfig(
     level=logging.INFO,   # change to DEBUG if needed
     format="%(asctime)s | %(levelname)s | %(message)s"
@@ -73,3 +75,4 @@ def main():
 
 if __name__ == "__main__":
     main()
+    logger.info("calling mail function")
