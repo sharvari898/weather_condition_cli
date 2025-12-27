@@ -3,6 +3,7 @@ import json
 import logging
 """
 Author : Sharvari D 27-12-2025 Developed weather.py
+Updated: Sharvari Added logs
 """
 logging.basicConfig(
     level=logging.INFO,   # change to DEBUG if needed
