@@ -73,7 +73,12 @@ def main():
         print("An Error occured in main function", e)
 
 
+def greet():
+    print("Hello from local machine")
+
+
 
 if __name__ == "__main__":
     main()
     logger.info("calling mail function")
+    greet()
